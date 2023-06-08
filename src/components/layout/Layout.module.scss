@@ -1,0 +1,20 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.app {
+  color: $light;
+  background-color: $dark;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  border: 0.05rem solid $light;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 70%;
+  // margin-top: 5rem; // Same as height of Header.jsx
+  // width: 80%;
+  flex: 1;
+  // text-align: center;
+}

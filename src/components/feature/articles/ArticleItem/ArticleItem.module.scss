@@ -1,0 +1,46 @@
+@use '@/styles/scss/abstracts/' as *;
+
+.articleMain {
+  background: $light;
+  color: $dark;
+
+  .imageBox {
+    overflow: hidden;
+    background: $light;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .articleContent {
+    padding: 1rem;
+    margin: 0rem;
+    background: $light;
+    
+    h2 {
+      font-size: 1.3em;
+      color: $dark;
+    }
+  }
+}
+
+.articleFooter {
+  height: 100%;
+  background: $light;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+
+  a {
+    color: $dark;
+    background: $light;
+
+
+    &:hover, &:active {
+      color: $light;
+      background: $dark;
+
+    }
+  }
+}
