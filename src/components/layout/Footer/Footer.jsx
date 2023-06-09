@@ -11,6 +11,9 @@ function Footer() {
       <div className={styles.container}>
         <nav>
           <ul>
+          <li>
+              <Link href='https://betsy-demo.onrender.com/'>Betsy</Link>
+            </li>
             <li>
               <Link href='/contact'>Contact</Link>
             </li>
@@ -20,7 +23,7 @@ function Footer() {
           </ul>
         </nav>
         <p className={styles.copyright}>
-          Copyright &copy; {getCurrentYear()} OZ Talk.
+          Copyright &copy; {getCurrentYear()} World News.
         </p>
       </div>
     </div>

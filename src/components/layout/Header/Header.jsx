@@ -8,7 +8,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.brand}>
         <Link href='/'>
-          <span className={styles.logoMain}>OZ Talk</span>
+          <span className={styles.logoMain}>World News</span>
         </Link>
       </div>
       <nav>

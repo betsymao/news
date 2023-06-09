@@ -36,11 +36,9 @@
     color: $dark;
     background: $light;
 
-
     &:hover, &:active {
       color: $light;
       background: $dark;
-
     }
   }
 }
