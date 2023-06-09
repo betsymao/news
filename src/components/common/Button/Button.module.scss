@@ -5,13 +5,13 @@
   text-align: center;
   font: inherit;
   cursor: pointer;
-  color: $primaryColor;
+  color: $light;
   background-color: transparent;
-  border: 1px solid $primaryColor;
+  border: 1px solid $dark;
   border-radius: 4px;
 
   &:hover, &:active {
-    background-color: $brandColor;
-    color: $complementaryColor;
+    background-color: $light;
+    color: $dark;
   }
 }

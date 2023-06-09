@@ -6,13 +6,13 @@
   font: inherit;
   cursor: pointer;
   color: $primaryColor;
-  border: 1px solid $primaryColor;
+  border: 1px solid $light;
   background-color: transparent;
   border-radius: 4px;
   text-decoration: none;
 
   &:hover, &:active {
-    background-color: $brandColor;
-    color: $complementaryColor;
+    background-color: $dark;
+    color: $light;
   }
 }
