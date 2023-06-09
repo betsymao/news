@@ -12,7 +12,7 @@ function TopNewsPage(props) {
         <title>World News | Top News</title>
         <meta 
           name='description'
-          description='Browse all the Australian news of today via ABC News AU'
+          description='Browse all the top news in Australia!'
         />
       </Head>
       <HeroSection 

@@ -6,10 +6,10 @@ function PrivacyPolicyPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>OZ Talk | Privacy Policy</title>
+        <title>World News | Privacy Policy</title>
         <meta 
           name='description'
-          description='Browse all the global news of today via BBC News UK'
+          description='Privacy Policy for World News'
         />
       </Head>
       <h2>Privacy Policy</h2>

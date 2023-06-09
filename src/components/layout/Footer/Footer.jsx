@@ -11,8 +11,8 @@ function Footer() {
       <div className={styles.container}>
         <nav>
           <ul>
-          <li>
-              <Link href='https://betsy-demo.onrender.com/'>Betsy</Link>
+            <li>
+              <Link href='https://betsy-demo.onrender.com/' target="_blank" rel="noopener noreferrer">Betsy</Link>
             </li>
             <li>
               <Link href='/contact'>Contact</Link>
