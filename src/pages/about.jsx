@@ -7,7 +7,7 @@ function AboutPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>World News | About</title>
+        {/* <title>World News | About</title> */}
         <meta 
           name='description'
           description='Browse news from around the world!'
